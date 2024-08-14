@@ -1,0 +1,64 @@
+@charset "utf-8";
+/* CSS Document*/
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Viga&display=swap");
+
+body {
+  background-color: #222323;
+}
+
+nav {
+  font-family: "Viga", sans-serif;
+}
+
+.jumbotron {
+  padding-top: 8rem;
+}
+
+h2 {
+  font-family: "Viga", sans-serif;
+}
+
+section {
+  padding-top: 6rem;
+}
+
+/* Social Media */
+.sticky-bar {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  z-index: 1000;
+}
+
+.sticky-bar a {
+  display: block;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.sticky-bar a:hover {
+  background-color: #333;
+}
+
+.facebook {
+  background: #3b5998;
+}
+.telegram {
+  background: #299dd5;
+}
+.instagram {
+  background: #e1306c;
+}
+.linkedin {
+  background: #0077b5;
+}
+.github {
+  background: #000000;
+}
+.discord {
+  background: #5462e5;
+}
